@@ -29,7 +29,7 @@ services:
       dockerfile: backend.Dockerfile
     container_name: exam-service
     ports:
-      - "2007 :1427"
+      - "2007:1427"
     depends_on:
       postgresdb:
         condition: service_healthy
